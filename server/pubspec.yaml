@@ -1,0 +1,10 @@
+name: campus_pulse_server
+description: Campus Pulse Serverpod backend.
+publish_to: none
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+dependencies:
+  serverpod: 2.9.5
+dev_dependencies:
+  test: ^1.25.0
+  serverpod_test: 2.9.5

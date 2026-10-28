@@ -1,0 +1,12 @@
+class: Profile
+table: profile
+fields:
+  userId: String
+  subjects: List<String>
+  goal: String
+  availability: List<String>
+  visibleToMatches: bool
+indexes:
+  profile_user_idx:
+    fields: userId
+    unique: true

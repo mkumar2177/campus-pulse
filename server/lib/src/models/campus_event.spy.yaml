@@ -1,0 +1,14 @@
+class: CampusEvent
+table: campus_event
+fields:
+  title: String
+  category: String
+  description: String
+  organizerId: String
+  venue: String
+  dateTime: DateTime
+  capacity: int
+  cancelled: bool
+indexes:
+  event_title_idx:
+    fields: title

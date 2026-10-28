@@ -1,0 +1,10 @@
+class: MatchRequest
+table: match_request
+fields:
+  fromUserId: String
+  toUserId: String
+  status: String
+indexes:
+  match_request_unique_idx:
+    fields: fromUserId, toUserId
+    unique: true

@@ -1,0 +1,7 @@
+name: campus_pulse_client
+description: Generated typed client for Campus Pulse.
+publish_to: none
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+dependencies:
+  serverpod_client: 2.9.5

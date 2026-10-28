@@ -1,0 +1,10 @@
+class: Registration
+table: registration
+fields:
+  eventId: String
+  userId: String
+  status: String
+indexes:
+  registration_unique_idx:
+    fields: eventId, userId
+    unique: true
